@@ -79,9 +79,9 @@ fi
 if [[ "$fileType" == "c" ]]; then 
 	cat > $objFile <<-ENDOFMESSAGE
 	/*	
-		Author: $authName
-		Date: $Date
-		Description: $codeDescription
+	    Author: $authName
+	    Date: $Date
+	    Description: $codeDescription
 	*/
 	
 	#include <stdio.h>
@@ -98,9 +98,9 @@ fi
 if [[ "$fileType" == "cpp" ]]; then 
 	cat > $objFile <<-ENDOFMESSAGE
 	/*
-		Author: $authName
-		Date: $Date
-		Description: $codeDescription
+	    Author: $authName
+	    Date: $Date
+	    Description: $codeDescription
 	*/
 	
 	#include <iostream>
