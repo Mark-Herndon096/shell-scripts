@@ -103,9 +103,8 @@ if [[ "$fileType" == "cpp" ]]; then
 	    Description: $codeDescription
 	*/
 	
-	#include <iostream>
+	#include <stdio.h>
 	#include <stdlib.h>
-	using namespace std;
 	
 	int main(int argc, char** argv)
 	{
